@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&family=Outfit&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 99vh;
+  font-family: "Outfit", sans-serif;
+}
+
+.wrapper {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.wrapper h2,
+p {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.scan {
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  color: hsl(220, 15%, 55%);
+}
+
+@media (min-width: 375px) {
+  .wrapper {
+    width: 400px;
+  }
+}
